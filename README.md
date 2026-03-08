@@ -1,2 +1,10 @@
-# grade_evaluator.py
-Implemented a Python script using if-elif-else logic to categorize student scores. Added input validation to ensure scores are between 0 and 100.
+# Student Grade Evaluator
+This project is part of my Computer Science prerequisite coursework.
+
+How it works:
+
+The user inputs a score.
+
+The program checks the value using conditional logic.
+
+It outputs whether the student has achieved Excellent, Pass, or Fail.

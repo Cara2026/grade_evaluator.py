@@ -49,3 +49,25 @@ def main():
 # This line tells Python to start the program by running the 'main' function above.
 if __name__ == "__main__":
     main()
+
+
+# =========================================================
+# REFINED CLEAN VERSION (For Production)
+# =========================================================
+
+def main():
+    try:
+        score = float(input("Enter the student's score: "))
+        if score < 0 or score > 100:
+            print("Invalid input. Please enter a value between 0 and 100.")
+        elif score >= 90:
+            print("Excellent")
+        elif score >= 60:
+            print("Pass")
+        else:
+            print("Fail")
+    except ValueError:
+        print("Error: Numerical input required.")
+
+if __name__ == "__main__":
+    main()
